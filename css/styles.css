@@ -1,5 +1,6 @@
 body, html{
   height: 100%;
+  background-color: #7b8db1;
 }
 .bg{
   background-image: url(../media/paint.jpg);
@@ -99,7 +100,7 @@ section.child1 {
     text-align: center;
 }
 section.child1 img {
-    max-width: 100%;
+    max-width: 50%;
     justify-content: center;
 }
   /* Gallery IMG 2 */
