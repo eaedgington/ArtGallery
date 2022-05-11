@@ -1,0 +1,144 @@
+body, html{
+  height: 100%;
+}
+.bg{
+  background-image: url(../media/paint.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* NAV */
+nav {
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    margin: auto;
+    background-color: #999ea8;
+}
+
+nav a {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #e8e8e8;
+    color: black;
+    padding: .5em .5em;
+    margin: .5em;
+}
+
+/* TOP */
+h1 {
+  background-color: #7b8db1;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+.instructions{
+  text-align: center;
+}
+
+/* Gallery and Customer Links */
+.cust-links li{
+  display: inline-block;
+  padding-top: 3em;
+}
+.gal-links li{
+  display: inline-block;
+  padding-top: 3em;
+}
+.cust-links ul{
+  list-style: none;
+}
+.gal-links ul{
+  list-style: none;
+}
+.cust-links a{
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #e8e8e8;
+  color: black;
+  padding: .5em .5em;
+  margin: .5em;
+}
+.gal-links a{
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #e8e8e8;
+  color: black;
+  padding: .5em .5em;
+  margin: .5em;
+}
+
+/* ART GALLERY STYLES */
+.parent-container2 {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    padding-top: 1em;
+}
+.parent-container3 {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    padding-bottom: 2em;
+}
+  /* Gallery IMG 1 */
+section.child1 {
+    flex: 2;
+    flex-grow: 1;
+    text-align: center;
+}
+section.child1 img {
+    max-width: 100%;
+    justify-content: center;
+}
+  /* Gallery IMG 2 */
+section.child2 {
+    flex: 2;
+    flex-grow: 1;
+    text-align: center;
+}
+section.child2 img {
+    max-width: 70%;
+    justify-content: center;
+}
+  /* Gallery IMG 3 */
+section.child3 {
+    flex: 2;
+    flex-grow: 1;
+    text-align: center;
+}
+section.child3 img {
+    max-width: 80%;
+    justify-content: center;
+}
+  /* Gallery IMG 4 */
+section.child4 {
+    flex: 2;
+    flex-grow: 1;
+    text-align: center;
+}
+section.child4 img {
+    max-width: 80%;
+    justify-content: center;
+}
+  /* Gallery IMG 5 */
+section.child5 {
+    flex: 2;
+    flex-grow: 1;
+    text-align: center;
+}
+section.child5 img {
+    max-width: 80%;
+    justify-content: center;
+}
